@@ -1,0 +1,6 @@
+FROM scratch
+
+ARG BINARY
+
+COPY ${BINARY} /${BINARY}
+
